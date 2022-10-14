@@ -1,0 +1,26 @@
+.cell {
+  height: 25px;
+  width: 25px;
+}
+.mazeContainer {
+  padding: 4rem 0;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1525px;
+  max-height: 1025px;
+}
+.player {
+  text-align: center;
+  line-height: 25px;
+  font-size: 29px;
+}
+
+.visited {
+  opacity: 0.2;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
